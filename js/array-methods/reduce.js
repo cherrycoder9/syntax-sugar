@@ -37,7 +37,6 @@ let users = [
     { name: "Bob", age: 30 },
     { name: "Charlie", age: 35 },
 ];
-
 let totalAge = users.reduce((accumulator, user) => accumulator + user.age, 0);
 console.log(totalAge); // 90
 
